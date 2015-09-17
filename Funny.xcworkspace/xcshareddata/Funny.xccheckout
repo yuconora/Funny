@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4745A9EE-7389-4B43-9B79-033871B068FC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Funny</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>21F38790488A4318A271FFE637FDDAD84D2668C4</key>
+		<string>https://github.com/yuconora/Funny.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Funny.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>21F38790488A4318A271FFE637FDDAD84D2668C4</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yuconora/Funny.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>21F38790488A4318A271FFE637FDDAD84D2668C4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>21F38790488A4318A271FFE637FDDAD84D2668C4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Funny</string>
+		</dict>
+	</array>
+</dict>
+</plist>
