@@ -7,10 +7,7 @@
 //
 
 #import "RootViewController.h"
-
+#import "NoteModel.h"
 @interface DetailPageViewController : RootViewController
-@property (nonatomic,strong) UIImage *leftImage;
-@property (nonatomic,strong) NSString *preViewUrl;
-@property (nonatomic,strong) NSString *titleText;
-@property (nonatomic,strong) NSString *totalSize;
+@property (nonatomic,strong) NoteModel *nModel;
 @end

@@ -16,6 +16,7 @@
 
 - (void)createCellUIWithModel:(NoteModel *)model{
     [_cellImg sd_setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"%@%@/%@0.png",PIC_URL,model.Prefix,model.Prefix]]];
+//    _cellImg.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@0.png",model.NameEN]];
     _cellImg.contentMode = UIViewContentModeScaleAspectFit;
     _nameLabel.text = model.NameSC;
     if ([model.Local isEqualToString:@"1"]) {

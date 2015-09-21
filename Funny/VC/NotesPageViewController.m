@@ -46,7 +46,6 @@
         NSLog(@"%@",error);
     }];
     [operation start];
-
 }
 
 - (void)initDataSource{
@@ -84,15 +83,13 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     DetailPageViewController *detail = [[DetailPageViewController alloc] init];
     detail.navigationController.navigationBarHidden = YES;
-    detail.leftImage = cell.cellImg.image;
-    detail.preViewUrl = [NSString stringWithFormat:@"%@%@/%@Preview.png",PIC_URL,[_dataSource[indexPath.row] Prefix],[_dataSource[indexPath.row] Prefix]];
-    detail.titleText = [_dataSource[indexPath.row] NameSC];
-    detail.totalSize = [_dataSource[indexPath.row] Size];
+    detail.nModel = _dataSource[indexPath.row];
     detail.hidesBottomBarWhenPushed = YES;
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
     [self.navigationController pushViewController:detail animated:YES];
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 80.0f;
+    return 100.0f;
 }
 - (void)initUI{
     self.view.backgroundColor = [UIColor colorWithRed:0.985 green:1.000 blue:0.937 alpha:1.000];

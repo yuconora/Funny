@@ -9,11 +9,13 @@
 #import "MainPageViewController.h"
 #import "NotesPageViewController.h"
 #import "FunnyHeader.h"
+#import "PhotoVC.h"
 @interface MainPageViewController ()
 
 @property (strong, nonatomic) IBOutlet UIImageView *backGroundImage;
 @property (strong, nonatomic) IBOutlet UIButton *photos;
 @property (strong, nonatomic) IBOutlet UIButton *camara;
+- (IBAction)photoClick:(id)sender;
 - (IBAction)noteClick:(id)sender;
 @property (strong, nonatomic) IBOutlet UIButton *notes;
 @end
@@ -43,6 +45,14 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)photoClick:(id)sender {
+    PhotoVC *photo  = [[PhotoVC alloc] init];
+    photo.navigationController.navigationBarHidden = YES;
+    photo.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:photo animated:YES];
+    
+}
 
 - (IBAction)noteClick:(id)sender {
     NotesPageViewController *note = [[NotesPageViewController alloc] init];

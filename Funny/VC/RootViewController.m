@@ -20,8 +20,8 @@
     // Do any additional setup after loading the view.
 }
 
-- (CGFloat)getImageHeightWithUIImageView:(UIImageView *)imgv{
-    return SCREEN_WIDTH/imgv.image.size.width*imgv.image.size.height;
+- (CGFloat)getImageHeightWithUIImageView:(UIImageView *)imgv byWidth:(CGFloat)width{
+    return width/imgv.image.size.width*imgv.image.size.height;
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

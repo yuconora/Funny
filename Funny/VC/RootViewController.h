@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface RootViewController : UIViewController
-- (CGFloat)getImageHeightWithUIImageView:(UIImageView *)imgv;
+- (CGFloat)getImageHeightWithUIImageView:(UIImageView *)imgv byWidth:(CGFloat)width;
 @end
